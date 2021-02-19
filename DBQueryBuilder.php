@@ -4,7 +4,7 @@
 
 abstract class DBQueryBuilder
 {
-    public $query;
+    protected $query;
 
     abstract public function buildQuery($queryData);
 
